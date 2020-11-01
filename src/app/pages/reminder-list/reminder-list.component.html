@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-lg-9 col-md-9 col-sm-8 col-12">
+        <div class="input-group input-group-lg mb-2">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-lg">Buscar</span>
+            </div>
+            <input (keyup)='filter($event)' type="text" class="form-control" aria-label="reminder" aria-describedby="input-filter">
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-4 col-12 pb-2">
+        <button (click)="dialogForNewReminder()" type="button" class="c-color h-100 w-100 btn">Adicionar lembrete</button>
+    </div>
+</div>
+<po-list-view p-property-title="title" [p-items]="listOfRemindersFiltered" (p-show-more)="show()">
+    <ng-template p-list-view-content-template let-item>
+        <button type="button" (click)="edit(item)" class="btn c-location d-flex">
+            <mat-icon aria-hidden="false" aria-label="edit">edit</mat-icon>
+        </button>
+        <div class="po-row">
+            <po-info class="po-md-12" p-label="Anotação" [p-value]="item.description"></po-info>
+            <div [ngClass]="{'c-priority-low': item.priority === '1',
+                'c-priority-medium': item.priority === '2','c-priority-high': item.priority === '3' }" class="ml-2">
+                <p class="m-0">
+                    Prioridade: {{priorityRating[item.priority]}}
+                </p>
+            </div>
+        </div>
+    </ng-template>
+</po-list-view>

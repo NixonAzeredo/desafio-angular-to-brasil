@@ -1,0 +1,23 @@
+.c-location{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.c-priority-low, .c-priority-medium, .c-priority-high{
+    padding: 2px 5px 2px 5px;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    background: #28a745;
+    color: #ffffff;
+    font-weight: 500;
+}
+.c-priority-medium{
+    background: #ffc107 !important;
+    color: #424242 !important;
+}
+.c-priority-high{
+    background: #dc3545 !important;
+}
+
+

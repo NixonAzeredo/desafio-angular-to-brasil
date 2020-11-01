@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+textarea:focus, input[type="text"]:focus {   
+    border-color: #c9357d;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #b6226a;
+    outline: 0 none;
+}
+
+.form-control:focus{
+    border-color: #c5548a; 
+    box-shadow: 0 0 0 0.2rem #c5548a;
+}
+
+button[type="submit"], button[type="button"]{
+    background: #c9357d;
+    border-color: #c9357d;
+    color: #ffffff;
+}
+
+button[type="submit"]:hover, button[type="button"]:hover{
+    background: #b6226a;
+    border-color: #b6226a;
+    color: #ffffff;
+}
+
+button[type="submit"]:focus, button[type="button"]:focus{
+    background: #c5548a !important;
+    border-color: #c5548a !important;
+    color: #ffffff;
+    box-shadow: 0 0 0 0.2rem #c5548a;
+}
+
+button[type="submit"]:active, button[type="button"]:active{
+    background: #c5548a !important;
+    border-color: #c5548a !important;
+    color: #ffffff;
+    box-shadow: 0 0 0 0.2rem #c5548a;
+}
+
+.c-btn-outline{
+    background: transparent !important;
+    color: #c9357d !important;
+}
+
+.c-btn-outline:hover{
+    background: #c9357d !important;
+    border-color: #c9357d !important;
+    color: #ffffff !important;
+}
