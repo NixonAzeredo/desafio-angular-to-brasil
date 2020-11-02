@@ -17,6 +17,6 @@
     </select>
     <div class="text-right">
         <button type="button" (click)="close()" class="btn c-btn-outline">Cancelar</button>
-        <button type="submit" class="btn ml-2">Salvar</button>
+        <button type="submit" [disabled]="reminderFormStatus" class="btn ml-2">Salvar</button>
     </div>
 </form>

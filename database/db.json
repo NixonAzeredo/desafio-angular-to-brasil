@@ -1,160 +1,124 @@
 {
   "reminders": [
     {
-      "title": "Primeiro",
-      "description": "Lembrar de nerda no projeto",
-      "priority": "3",
+      "title": "Arrumar o quarto",
+      "description": "Acordar cedo para arrumar a cama",
+      "priority": "2",
       "id": 1
     },
     {
-      "title": "Segundo S",
-      "description": "novo",
-      "priority": "2",
+      "title": "",
+      "description": "",
+      "priority": "1",
       "id": 2
     },
     {
-      "title": "Terceiro S",
-      "description": "louco",
+      "title": "",
+      "description": "",
       "priority": "1",
       "id": 3
     },
     {
-      "title": "Quarto 35",
-      "description": "lembrete",
+      "title": "",
+      "description": "aaaaaa",
       "priority": "1",
       "id": 4
     },
     {
-      "title": "Quinto cabral",
-      "description": "novo",
-      "priority": "2",
+      "title": "",
+      "description": "",
+      "priority": "1",
       "id": 5
     },
     {
-      "title": "Quinto 8s",
-      "description": "123",
+      "title": "Lavar o carro",
+      "description": "asasasasas",
       "priority": "3",
       "id": 6
     },
     {
-      "title": "Sétimo",
-      "description": "lembrete",
+      "title": "LAVAR CARRO",
+      "description": "FGGFGG",
       "priority": "1",
       "id": 7
     },
     {
-      "title": "Oitavo",
-      "description": "novo",
-      "priority": "2",
+      "title": "LAVAR CARRO",
+      "description": "FGGFGG",
+      "priority": "1",
       "id": 8
     },
     {
-      "title": "Nono",
-      "description": "123",
-      "priority": "3",
+      "title": "LAVAR CARRO",
+      "description": "FGGFGG",
+      "priority": "1",
       "id": 9
     },
     {
-      "title": "Décimo",
-      "description": "lembrete",
+      "title": "LAVAR CARRO",
+      "description": "FGGFGG",
       "priority": "1",
       "id": 10
     },
     {
-      "title": "Décimo primeiro",
-      "description": "novo",
-      "priority": "2",
+      "title": "LAVAR CARRO",
+      "description": "FGGFGG",
+      "priority": "1",
       "id": 11
     },
     {
-      "title": "Décimo segundo",
-      "description": "123",
-      "priority": "3",
+      "title": "LAVAR CARRO",
+      "description": "FGGFGG",
+      "priority": "1",
       "id": 12
     },
     {
-      "title": "Décimo terceiro",
-      "description": "novo",
-      "priority": "2",
+      "title": "LAVAR CARRO",
+      "description": "FGGFGG",
+      "priority": "1",
       "id": 13
     },
     {
-      "title": "asdasd",
-      "description": "adsasdas",
-      "priority": "2",
+      "title": "LAVAR CARRO",
+      "description": "FGGFGG",
+      "priority": "1",
       "id": 14
     },
     {
-      "title": "qwe",
-      "description": "asdas",
-      "priority": "1",
+      "title": "LAVAR CARRO",
+      "description": "FGGFGG",
+      "priority": "3",
       "id": 15
     },
     {
-      "title": "qwe",
-      "description": "qweqw",
+      "title": "LAVAR CARRO",
+      "description": "FGGFGG",
       "priority": "2",
       "id": 16
     },
     {
-      "title": "qwe",
-      "description": "qweqw",
+      "title": "Fazer dever de casa",
+      "description": "FGGFGG",
       "priority": "2",
       "id": 17
     },
     {
-      "title": "qwe",
-      "description": "asdas",
-      "priority": "2",
+      "title": "LAVAR CARRO",
+      "description": "FGGFGG",
+      "priority": "1",
       "id": 18
     },
     {
-      "title": "qwe Novidade",
-      "description": "asdas",
-      "priority": "2",
+      "title": "aaa",
+      "description": "aa",
+      "priority": "1",
       "id": 19
     },
     {
-      "title": "qwe",
-      "description": "qwe",
-      "priority": "1",
-      "id": 20
-    },
-    {
-      "title": "novo",
-      "description": "asd",
-      "priority": "1",
-      "id": 21
-    },
-    {
-      "title": "Slack 9",
-      "description": "novo",
+      "title": "Algo para fazer hoje",
+      "description": "show",
       "priority": "3",
-      "id": 22
-    },
-    {
-      "title": "asdas3",
-      "description": "qweqwewq",
-      "priority": "1",
-      "id": 23
-    },
-    {
-      "title": "zxczxczxczx",
-      "description": "zcxzx",
-      "priority": "1",
-      "id": 24
-    },
-    {
-      "title": "giant35",
-      "description": "g",
-      "priority": "1",
-      "id": 25
-    },
-    {
-      "title": "Arrumar a cama 40",
-      "description": "Acordar cedo para arrumar a cama",
-      "priority": "2",
-      "id": 26
+      "id": 20
     }
   ]
 }

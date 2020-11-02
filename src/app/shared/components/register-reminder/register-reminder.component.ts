@@ -1,6 +1,6 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { FormBuilder } from '@angular/forms';
+import { FormBuilder, Validators } from '@angular/forms';
 import { RemindersService } from '../../services/reminders.service';
 import { Reminder } from '../../models/reminder.interface';
 
@@ -12,8 +12,8 @@ import { Reminder } from '../../models/reminder.interface';
 export class RegisterReminderComponent implements OnInit {
 
   reminderForm = this.fb.group({
-    title: [''],
-    description: [''],
+    title: ['', [Validators.required, Validators.minLength(2)]],
+    description: ['', [Validators.required, Validators.minLength(2)]],
     priority: '1',
   });
   message: string;
@@ -31,6 +31,11 @@ export class RegisterReminderComponent implements OnInit {
           this.data
         )
       }
+      console.log(this.reminderForm)
+    }
+
+    get reminderFormStatus(){
+      return this.reminderForm.status === "INVALID";
     }
 
     submitNewReminder(): void {
