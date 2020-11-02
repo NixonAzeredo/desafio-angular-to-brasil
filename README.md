@@ -1,4 +1,4 @@
-# ListaAmiga :memo::dancer:
+# Lembrete Amigo :memo::dancer:
 
 Esse projeto é uma lista de lembretes com prioridades para ajudar a organizar seu dia!
 
