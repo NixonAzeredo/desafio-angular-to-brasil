@@ -2,7 +2,7 @@
   "reminders": [
     {
       "title": "Fazer o almoço",
-      "description": "Arroz\nFeijão\nCarne",
+      "description": "Arroz\nFeijão\nCarne\nFrango",
       "priority": "3",
       "id": 1
     },
