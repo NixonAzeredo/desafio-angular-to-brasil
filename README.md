@@ -4,6 +4,8 @@ Esse projeto é uma lista de lembretes com prioridades para ajudar a organizar s
 
 ## Servidor de desenvolvimento :construction:
 
+Rode `json-server --watch .\database\db.json`
+
 Rode `ng serve`. Navegue até `http://localhost:4200/`.
 
 ## Servidor de produção :zap:
