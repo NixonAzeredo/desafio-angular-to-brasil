@@ -3,8 +3,7 @@
     right: 5px;
     top: 5px;
 }
-
-.c-priority-low, .c-priority-medium, .c-priority-high{
+.c-priority-low, .c-priority-medium, .c-priority-high, .c-background-id{
     padding: 2px 5px 2px 5px;
     border: solid 1px transparent;
     border-radius: 4px;
@@ -18,6 +17,9 @@
 }
 .c-priority-high{
     background: #dc3545 !important;
+}
+.c-background-id{
+    background:  #c9357d !important;
 }
 
 
