@@ -50,19 +50,16 @@ export class ReminderListComponent implements OnInit {
       data: item ?? false
     });
 
-    dialogRef.afterClosed().subscribe((status) => {
-      if (!status){
+    dialogRef.afterClosed().subscribe((params) => {
+      if (!params || !params.status){
         return;
       }
-      if(status.id){
-        this.reminderService.updatedOne(status.id)
+      if(params.id){
+        this.reminderService.updatedOne(params.id)
         .subscribe(
           (response: Reminder) => {
-            const oldReminders = this.listOfRemindersFiltered;
-            const updatedIndex = this.listOfRemindersFiltered.findIndex((reminder) => reminder.id === response.id);
-            oldReminders.splice(updatedIndex, 1, response)
-            this.listOfRemindersFiltered = [...oldReminders]
-            this.update()
+            this.updateVisibleList(response)
+            this.updateBaseList()
           }
         )
       }else{
@@ -84,13 +81,21 @@ export class ReminderListComponent implements OnInit {
     this.dialogForNewReminder(item);
   }
   
-  update(): void {
+  updateBaseList(): void {
     this.reminderService.goBackWhereYouLeftOff(this.listOfReminders.length)
       .subscribe(
         (response: Reminder[]) => {
           this.listOfReminders = [...response]
         }
       )
+  }
+
+  updateVisibleList(reminder: Reminder): void {
+    const oldReminders = this.listOfRemindersFiltered;
+    const updatedIndex = this.listOfRemindersFiltered
+    .findIndex((reminderItem) => reminderItem.id === reminder.id);
+    oldReminders.splice(updatedIndex, 1, reminder)
+    this.listOfRemindersFiltered = [...oldReminders]
   }
 
 }

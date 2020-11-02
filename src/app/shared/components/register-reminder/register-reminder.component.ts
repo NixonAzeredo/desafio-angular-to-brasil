@@ -31,7 +31,6 @@ export class RegisterReminderComponent implements OnInit {
           this.data
         )
       }
-      console.log(this.reminderForm)
     }
 
     get reminderFormStatus(){
@@ -39,7 +38,6 @@ export class RegisterReminderComponent implements OnInit {
     }
 
     submitNewReminder(): void {
-      console.log(this.data)
       if (!this.data){
         this.reminderService.add(this.reminderForm.getRawValue())
           .subscribe(
