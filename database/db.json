@@ -1,130 +1,46 @@
 {
   "reminders": [
     {
-      "title": "Arrumar o quarto",
-      "description": "Acordar cedo para arrumar a cama",
-      "priority": "2",
+      "title": "Fazer o almoço",
+      "description": "Arroz\nFeijão\nCarne",
+      "priority": "3",
       "id": 1
     },
     {
-      "title": "",
-      "description": "",
-      "priority": "1",
+      "title": "Arrumar a cama",
+      "description": "Assim que acordar",
+      "priority": "2",
       "id": 2
     },
     {
-      "title": "",
-      "description": "",
-      "priority": "1",
+      "title": "Levar o cachorro para passear",
+      "description": "Depois do café da manhã",
+      "priority": "2",
       "id": 3
     },
     {
-      "title": "",
-      "description": "aaaaaa",
+      "title": "Jogar league of legends",
+      "description": "Chamar meus amigos para jogar",
       "priority": "1",
       "id": 4
     },
     {
-      "title": "",
-      "description": "",
-      "priority": "1",
+      "title": "Pagar fatura de cartão de crédito",
+      "description": "R$ 360,00",
+      "priority": "2",
       "id": 5
     },
     {
-      "title": "Lavar o carro",
-      "description": "asasasasas",
-      "priority": "3",
+      "title": "Verificar pontuação no Nubank",
+      "description": "Ver se da para resgatar algo",
+      "priority": "1",
       "id": 6
     },
     {
-      "title": "LAVAR CARRO",
-      "description": "FGGFGG",
-      "priority": "1",
+      "title": "Sacar dinheiro",
+      "description": "Para pagar o rodizio ",
+      "priority": "3",
       "id": 7
-    },
-    {
-      "title": "LAVAR CARRO",
-      "description": "FGGFGG",
-      "priority": "1",
-      "id": 8
-    },
-    {
-      "title": "LAVAR CARRO",
-      "description": "FGGFGG",
-      "priority": "1",
-      "id": 9
-    },
-    {
-      "title": "LAVAR CARRO",
-      "description": "FGGFGG",
-      "priority": "1",
-      "id": 10
-    },
-    {
-      "title": "LAVAR CARRO",
-      "description": "FGGFGG",
-      "priority": "1",
-      "id": 11
-    },
-    {
-      "title": "LAVAR CARRO",
-      "description": "FGGFGG",
-      "priority": "1",
-      "id": 12
-    },
-    {
-      "title": "LAVAR CARRO",
-      "description": "FGGFGG",
-      "priority": "1",
-      "id": 13
-    },
-    {
-      "title": "LAVAR CARRO",
-      "description": "FGGFGG",
-      "priority": "1",
-      "id": 14
-    },
-    {
-      "title": "LAVAR CARRO",
-      "description": "FGGFGG",
-      "priority": "3",
-      "id": 15
-    },
-    {
-      "title": "LAVAR CARRO",
-      "description": "FGGFGG",
-      "priority": "2",
-      "id": 16
-    },
-    {
-      "title": "Fazer dever de casa",
-      "description": "FGGFGG",
-      "priority": "2",
-      "id": 17
-    },
-    {
-      "title": "LAVAR CARRO",
-      "description": "FGGFGG",
-      "priority": "1",
-      "id": 18
-    },
-    {
-      "title": "aaa",
-      "description": "aa",
-      "priority": "1",
-      "id": 19
-    },
-    {
-      "title": "Algo para fazer hoje35",
-      "description": "show",
-      "priority": "3",
-      "id": 20
-    },
-    {
-      "title": "Novo",
-      "description": "algo",
-      "priority": "1",
-      "id": 21
     }
   ]
 }

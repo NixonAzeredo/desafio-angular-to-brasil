@@ -14,7 +14,7 @@ import { MaterialModule } from './shared/modules-the-3rd/material.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,

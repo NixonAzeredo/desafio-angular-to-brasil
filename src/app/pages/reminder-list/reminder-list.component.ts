@@ -27,7 +27,7 @@ export class ReminderListComponent implements OnInit {
 
   show(): void { 
     const pag = this.listOfReminders.length
-    this.reminderService.pagination(String(pag), String(pag + 3) ).subscribe(
+    this.reminderService.pagination(String(pag), String(pag + 5) ).subscribe(
       (response: Reminder[]) => {
         this.listOfReminders = [...this.listOfReminders, ...response]
         this.listOfRemindersFiltered = [...this.listOfRemindersFiltered, ...response]

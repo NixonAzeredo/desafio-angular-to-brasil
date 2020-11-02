@@ -19,11 +19,11 @@ export class RemindersService {
   ) { }
 
   list(): Observable<Reminder[]> {
-    return this.http.get<Reminder[]>(this.url.concat(this.resource, '?_start=0&_end=6&_sort=id&_order=desc,asc'));
+    return this.http.get<Reminder[]>(this.url.concat(this.resource, '?_start=0&_end=5&_sort=id&_order=desc,asc'));
   }
 
   pagination(start: string, end: string): Observable<Reminder[]>{
-    return this.http.get<Reminder[]>(this.url.concat(this.resource, `?_start=${start}&_end=${end}=6&_sort=id&_order=desc,asc`));
+    return this.http.get<Reminder[]>(this.url.concat(this.resource, `?_start=${start}&_end=${end}&_sort=id&_order=desc,asc`));
   }
 
   add(reminder: Reminder): Observable<Reminder>{
